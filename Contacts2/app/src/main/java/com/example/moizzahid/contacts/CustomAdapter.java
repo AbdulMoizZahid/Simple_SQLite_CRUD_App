@@ -60,8 +60,8 @@ public class CustomAdapter extends BaseAdapter {
         }
 
         holder.tvname.setText("Name: "+userModelArrayList.get(position).getName());
-        holder.tvhobby.setText("Hobby: "+userModelArrayList.get(position).getHobby());
-        holder.tvcity.setText("City: "+userModelArrayList.get(position).getCity());
+        holder.tvhobby.setText("Phone: "+userModelArrayList.get(position).getHobby());
+        holder.tvcity.setText("Email: "+userModelArrayList.get(position).getCity());
 
         return convertView;
     }

@@ -8,10 +8,6 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
 import java.util.ArrayList;
-
-/**
- * Created by Parsania Hardik on 11/01/2016.
- */
 public class DatabaseHelper extends SQLiteOpenHelper {
 
     public static String DATABASE_NAME = "user_database";
